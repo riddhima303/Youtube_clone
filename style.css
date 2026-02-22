@@ -198,3 +198,36 @@ body {
 #next{
    border-radius:50%
 }
+
+.video-card {
+    width: 350px;   /* controls card width */
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;   /* keeps YouTube ratio */
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.thumbnail iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.video-info {
+    margin-top: 10px;
+    color: white;
+}
+
+.video-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.video-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
