@@ -170,3 +170,28 @@ body {
 .sign-in:hover {
     background: rgba(62, 166, 255, 0.1);
 }
+.classes{
+    display: flex;
+    gap: 10px;
+    margin-top:10px;
+}
+.classes button{
+    background-color: #0f0f0f;
+    border:none;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.classes button:hover{
+    background-color: #222;
+}
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    margin-left: 250px; 
+    padding: 20px;
+}
