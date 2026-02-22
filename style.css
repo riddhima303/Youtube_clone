@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+.sidebar {
+    background-color: rgba(9, 9, 9, 0.94);
+    width: 250px;
+    height: 100vh;
+    padding-top: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-item {
+    position: relative;
+}
+.menu-item a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu-item:hover {
+    background-color: #222;
+}
+/*Tooltip */
+.tooltip {
+    position: absolute;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    white-space: nowrap;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 100;
+}
+.menu-item:hover .tooltip {
+    opacity: 1;
+}
+/* Icon spacing */
+.menu-item i {
+    margin-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Hover effect */
+.menu-item:hover {
+    background-color: #222;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo i {
+    color: red;
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+
+
+
