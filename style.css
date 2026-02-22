@@ -199,10 +199,15 @@ body {
    border-radius:50%
 }
 
+.videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
 .video-card {
-    width: 350px;   /* controls card width */
     margin-top: 20px;
 }
+
 
 .thumbnail {
     width: 100%;
